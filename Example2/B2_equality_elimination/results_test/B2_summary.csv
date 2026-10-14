@@ -1,0 +1,4 @@
+method,runs,feasible_runs,mean_feasible_points,mean_nondominated,both_components_runs,best_combined_violation,mean_seconds,mean_evaluations,feasible_run_rate
+nsga2,1,1,84.0,23.0,1,0.0,0.11065329998382367,420.0,1.0
+nsga3,1,1,84.0,19.0,1,0.0,0.24310769999283366,420.0,1.0
+ctaea,1,1,39.0,15.0,1,0.0,0.29958120000083,420.0,1.0

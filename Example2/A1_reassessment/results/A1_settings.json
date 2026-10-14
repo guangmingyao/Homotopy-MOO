@@ -1,0 +1,10 @@
+{
+  "experiment": "A1",
+  "type": "Retrospective reassessment",
+  "equality_tolerance": 0.0001,
+  "inequality_tolerance": 1e-07,
+  "optimization_rerun": false,
+  "reference": "Copied original Experiment A reference front",
+  "normalization": "Copied original Experiment A settings",
+  "note": "Relaxed equality feasibility does not imply exact feasibility."
+}

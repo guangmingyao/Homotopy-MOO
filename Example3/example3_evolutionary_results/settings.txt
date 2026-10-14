@@ -1,0 +1,13 @@
+runs=20
+n_evals=20000
+partitions=12
+population=91
+seeds=20261012..20261031
+feasibility_threshold_scaled=1e-7
+constraint_handling=identical_exterior_penalty_both_methods
+penalty_coefficient=100
+balance_threshold_MW=1e-5
+HV_reference_point_normalized=(1.1,1.1,1.1)
+IGD_reference=pooled_feasible_nondominated_union
+homotopy_csv=None
+objective_scaling_internal=[20000.0, 100000.0, 2.0]

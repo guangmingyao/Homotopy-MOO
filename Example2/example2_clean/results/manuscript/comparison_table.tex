@@ -1,0 +1,16 @@
+\begin{table}[htbp]
+\centering
+\caption{Comparison for Example 2 at feasibility tolerance $10^{-7}$. Quality indicators are computed only for feasible nondominated solutions; dashes denote undefined values.}
+\label{tab:example2_comparison}
+\small
+\begin{tabular}{lrrrrrr}
+\toprule
+Method & Feasible runs & Feasible points & Best violation & HV & IGD & Time (s) \\
+\midrule
+Homotopy & 1/1 & 129 & $8.08e-28$ & 0.3368 & 0.2462 & 1836.9 \\
+NSGA-II & 0/20 & 0 & $1.75e-06$ & -- & -- & 9.7 \\
+NSGA-III & 0/20 & 0 & $2.10e-06$ & -- & -- & 13.3 \\
+C-TAEA & 0/20 & 0 & $9.13e-07$ & -- & -- & 25.4 \\
+\bottomrule
+\end{tabular}
+\end{table}

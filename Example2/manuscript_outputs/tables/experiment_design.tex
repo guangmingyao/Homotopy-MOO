@@ -1,0 +1,17 @@
+\begin{table}[htbp]
+\centering
+\small
+\caption{Design of Example 2 comparisons. Evolutionary optimization uses population 84, 400 generations and 20 independent runs; A1 and B1 are retrospective analyses of original populations.}
+\label{tab:example2_design}
+\begin{tabular}{llll}
+\hline
+Study & Decision variables & Equality treatment & Inequality tolerance \\
+\hline
+Original & 4 & Original equalities, $10^{-7}$ & $10^{-7}$ \\
+A1 & 4 & Retrospective test, $10^{-4}$ & $10^{-7}$ \\
+A2 & 4 & Relaxed during search, $10^{-4}$ & $10^{-7}$ \\
+B1 & 4 & Retrospective tolerance sweep & $10^{-7}$ \\
+B2 & 2 & Eliminated: $x_3=x_2$, $x_4=0$ & $10^{-7}$ \\
+\hline
+\end{tabular}
+\end{table}

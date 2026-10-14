@@ -1,0 +1,38 @@
+{
+  "formulation": "original",
+  "methods": [
+    "homotopy",
+    "nsga2",
+    "nsga3",
+    "ctaea"
+  ],
+  "runs": 20,
+  "generations": 400,
+  "population": 84,
+  "reference_size_per_component": 100,
+  "feasibility_tolerance": 1e-07,
+  "homotopy_fast": false,
+  "homotopy_skipped": false,
+  "evolutionary_skipped": false,
+  "normalization_ideal": [
+    -0.049794422860236186,
+    0.03537960602678447,
+    2.4622868217138993e-06,
+    9.972596169524801e-08
+  ],
+  "normalization_scale": [
+    4.615679894636883,
+    4.107317519046115,
+    0.06395541817994638,
+    0.07999990027403836
+  ],
+  "normalized_hv_reference_point": [
+    1.1,
+    1.1,
+    1.1,
+    1.1
+  ],
+  "reference_hv": 0.5715905781564502,
+  "seed_rule": "1000+run",
+  "caveat": "Homotopy is a single deterministic run; CPU time includes its native output pipeline."
+}

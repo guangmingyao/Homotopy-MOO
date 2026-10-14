@@ -1,0 +1,6 @@
+weight_name,edge-z1,edge-z2,edge-z3,exact/interior,vertex-z1,vertex-z2,vertex-z3
+equal,2,2,2,33,3,3,4
+w_2_2_4,2,2,11,24,2,2,6
+w_2_3_3,5,5,1,27,0,5,6
+w_3_2_3,5,5,1,27,5,0,6
+w_3_3_2,1,1,2,33,3,3,6

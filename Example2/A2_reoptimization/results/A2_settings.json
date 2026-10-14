@@ -1,0 +1,18 @@
+{
+  "experiment": "A2",
+  "formulation": "original four-variable problem",
+  "equality_tolerance": 0.0001,
+  "inequality_tolerance": 1e-07,
+  "constraint_handling": "three inequality constraints: g-ineq_tol, abs(h1)-eq_tol, abs(h2)-eq_tol",
+  "methods": [
+    "nsga2",
+    "nsga3",
+    "ctaea"
+  ],
+  "runs": 20,
+  "generations": 400,
+  "population": 84,
+  "seed_rule": "1000+run",
+  "homotopy": "not rerun; compare with original Experiment A baseline",
+  "note": "HV and IGD should be computed with the same reference front and normalization as A1."
+}

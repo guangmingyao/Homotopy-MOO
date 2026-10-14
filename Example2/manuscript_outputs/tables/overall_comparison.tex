@@ -1,0 +1,22 @@
+\begin{table}[htbp]
+\centering
+\small
+\caption{Example 2 objective-space indicators. Evolutionary entries are mean $\pm$ sample standard deviation across runs; the original homotopy baseline is one run. A1 and A2 accept equality residuals up to $10^{-4}$; B2 enforces equalities by construction. All use the same reference front and normalization.}
+\label{tab:example2_overall}
+\begin{tabular}{llrrrrr}
+\hline
+Study & Method & $n$ & HV $\uparrow$ & IGD $\downarrow$ & GD $\downarrow$ & Both lobes \\
+\hline
+Original & Homotopy & 1 & 0.3368 & 0.2462 & 0.0074 & 1/1 \\
+A1 & NSGA-II & 20 & 0.4043 $\pm$ 0.1458 & 0.3986 $\pm$ 0.3396 & 0.0154 $\pm$ 0.0331 & 8/20 \\
+A1 & NSGA-III & 20 & 0.3728 $\pm$ 0.1019 & 0.4908 $\pm$ 0.2587 & 0.0060 $\pm$ 0.0009 & 4/20 \\
+A1 & C-TAEA & 20 & 0.5669 $\pm$ 0.0042 & 0.0185 $\pm$ 0.0136 & 0.0058 $\pm$ 0.0004 & 20/20 \\
+A2 & NSGA-II & 20 & 0.3905 $\pm$ 0.1435 & 0.4346 $\pm$ 0.3363 & 0.0155 $\pm$ 0.0331 & 7/20 \\
+A2 & NSGA-III & 20 & 0.3657 $\pm$ 0.1149 & 0.4900 $\pm$ 0.2594 & 0.0142 $\pm$ 0.0364 & 4/20 \\
+A2 & C-TAEA & 20 & 0.5533 $\pm$ 0.0645 & 0.0377 $\pm$ 0.1004 & 0.0058 $\pm$ 0.0005 & 20/20 \\
+B2 & NSGA-II & 20 & 0.5632 $\pm$ 0.0015 & 0.0184 $\pm$ 0.0016 & 0.0074 $\pm$ 0.0005 & 20/20 \\
+B2 & NSGA-III & 20 & 0.5618 $\pm$ 0.0017 & 0.0263 $\pm$ 0.0031 & 0.0065 $\pm$ 0.0005 & 20/20 \\
+B2 & C-TAEA & 20 & 0.5678 $\pm$ 0.0003 & 0.0153 $\pm$ 0.0015 & 0.0059 $\pm$ 0.0004 & 20/20 \\
+\hline
+\end{tabular}
+\end{table}

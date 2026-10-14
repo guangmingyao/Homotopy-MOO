@@ -1,0 +1,2 @@
+problem,n_weights,n_starts,n_paths,n_success,n_successful_feasible,n_nondominated,n_near_exact_interior_kkt,n_boundary_endpoints,median_F_error_to_exact_kkt,max_F_error_to_exact_kkt,median_lambda_movement,max_lambda_movement,max_stationarity,max_complementarity,max_Hnorm,runtime_seconds,GD,IGD,AHD
+convex,21,4,84,84,84,84,84,0,8.926415706670383e-06,0.00011386684224504504,1.3877787807814457e-17,1.5700924586837752e-16,4.721307988183318e-05,2.0455444507050946e-06,1.0512384933724951e-08,37.482383012771606,0.0031951368901526147,0.10813739902323295,0.10813739902323295

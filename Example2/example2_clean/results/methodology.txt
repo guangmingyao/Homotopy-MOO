@@ -1,0 +1,8 @@
+All solvers use the original 4-variable constrained problem.
+Evolutionary metrics use the FINAL population; accumulated feasible and near-feasible candidates are supplementary.
+Feasibility: max absolute equality residual and positive inequality violation <= 1e-7.
+HV, GD, IGD and AHD are computed only for feasible nondominated points; undefined when none exist.
+GD/IGD/AHD use normalized objectives with the same fixed analytical reference front.
+Homotopy native quality indicators use its own reference and should not be substituted for the unified table.
+Homotopy is one deterministic run; stochastic methods are repeated with independent seeds.
+CPU time and evaluations are descriptive; homotopy function evaluation count is not available.

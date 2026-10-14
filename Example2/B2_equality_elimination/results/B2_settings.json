@@ -1,0 +1,18 @@
+{
+  "experiment": "B2",
+  "formulation": "two-variable reduced problem; x3=x2, x4=0",
+  "equality_tolerance": 1e-07,
+  "inequality_tolerance": 1e-07,
+  "constraint_handling": "one inequality g-ineq_tol; equalities eliminated analytically",
+  "methods": [
+    "nsga2",
+    "nsga3",
+    "ctaea"
+  ],
+  "runs": 20,
+  "generations": 400,
+  "population": 84,
+  "seed_rule": "1000+run",
+  "homotopy": "not rerun; compare with original Experiment A baseline",
+  "note": "HV and IGD should be computed with the same reference front and normalization as A1."
+}

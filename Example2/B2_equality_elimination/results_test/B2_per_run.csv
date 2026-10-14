@@ -1,0 +1,4 @@
+method,run,seed,n_candidates,n_feasible,n_nd,left_covered,right_covered,both_components,min_eq_residual,min_combined_violation,seconds,n_eval
+nsga2,1,1001,84,84,23,1,1,1,0.0,0.0,0.11065329998382367,420
+nsga3,1,1001,84,84,19,1,1,1,0.0,0.0,0.24310769999283366,420
+ctaea,1,1001,84,39,15,1,1,1,0.0,0.0,0.29958120000083,420

@@ -1,0 +1,15 @@
+\begin{table}[t]
+\centering
+\caption{IEEE 5-bus three-objective OPF comparison. HV and IGD use a common empirical reference set and objective normalization. Evolutionary results are mean $\pm$ sample standard deviation across independent runs.}
+\label{tab:ieee5_comparison}
+\begin{tabular}{lcccc}
+\hline
+Method & Feasible fraction & HV $\uparrow$ & IGD $\downarrow$ & Runtime (s) \\
+\hline
+Homotopy & -- & $0.5307$ & $0.2833$ & -- \\
+Weighted sum & -- & $0.5307$ & $0.2833$ & -- \\
+NSGA-III & $1.000$ & $0.9196\pm 0.0025$ & $0.0349\pm 0.0022$ & $5.90\pm 1.39$ \\
+MOEA/D & $1.000$ & $0.8411\pm 0.0061$ & $0.0699\pm 0.0017$ & $48.77\pm 2.75$ \\
+\hline
+\end{tabular}
+\end{table}

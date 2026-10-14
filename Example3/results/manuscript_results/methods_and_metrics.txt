@@ -1,0 +1,15 @@
+Input files:
+G:\My Drive\Research Projects\HomotopyPaper1Revision20261001\Code\Revision 2 20261001\Example3\results\solution_homotopy_ieee5.csv
+G:\My Drive\Research Projects\HomotopyPaper1Revision20261001\Code\Revision 2 20261001\Example3\results\ieee5bus_weighted_sum.csv
+G:\My Drive\Research Projects\HomotopyPaper1Revision20261001\Code\Revision 2 20261001\Example3\results\pareto_solutions_all_runs.csv
+G:\My Drive\Research Projects\HomotopyPaper1Revision20261001\Code\Revision 2 20261001\Example3\results\per_run_metrics.csv
+
+Reference: nondominated union of all feasible homotopy, weighted-sum, and evolutionary final-front points.
+Normalization lower=[14834.062062810552, 0.4131906548653801, 0.0088349029621421], upper=[23994.32214830005, 110142.42715379264, 0.292949099698039]
+HV reference point: [1.1, 1.1, 1.1] in normalized coordinates.
+IGD: mean Euclidean distance from common normalized reference set to nearest method point.
+Evolutionary statistics: sample SD (ddof=1) over independent runs.
+Classical HV/IGD: single 49-weight front; no SD. Runtime for classical methods is not read from CSV; supply measured values in manuscript separately.
+Note: pooled empirical reference is not the exact Pareto front; pooled reference may favor methods contributing more points.
+Representative run: run with IGD nearest its method median.
+Representative run indices: {'NSGA-III': 8, 'MOEA/D': 2}
